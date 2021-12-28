@@ -1,0 +1,112 @@
+/*----MENU---*/
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header {
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+nav{
+    display: inline;
+}
+nav li{
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 20px;
+    display: inline;
+    margin: 0 50px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover{
+    font-style: italic;
+}
+/*--------------------------------------------------------------------------*/
+
+
+
+body{
+    background-color: whitesmoke;
+}
+.loginblock{
+    border-radius: 80px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400px;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(121, 121, 255);
+}
+p{
+    font-size: 20px;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+}
+.labelinput{
+    position: relative;
+    left: 115px;
+    padding-bottom: 30px;
+}
+label{
+    color: rgb(121, 121, 255);
+    font-size: 20px;
+}
+input{
+    color: white;
+    background-color: rgba(137, 43, 226, 0);
+    border: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid white;
+    
+}
+#checkbox{
+    position: relative;
+    left: 110px;
+    padding-bottom: 60px;
+}
+#check{
+    color: rgb(121, 121, 255);
+}
+ul{
+    position: relative;
+    left: 100px;
+    
+    
+}
+#botao{
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+#dentro-do-botao{
+    font-family:sans-serif;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(255, 255, 255);
+    border: solid rgb(121, 121, 255) 2px;
+    border-radius: 30px 10px;
+    padding: 10px ;
+    font-size: 25px;
+}

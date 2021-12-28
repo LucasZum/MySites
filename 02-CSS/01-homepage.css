@@ -1,0 +1,162 @@
+
+iframe{
+    display: block;
+    float: right;
+
+    border-radius: 40px;
+}
+#textodovideo{
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-family: sans-serif;
+}
+
+
+
+
+/*----MENU---*/
+
+.center{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header {
+    display: inline;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+nav{
+    display: inline;
+}
+nav li{
+    padding: 5px 3px;
+    border: solid 2px white;
+    border-radius: 20px;
+    display: inline;
+    margin: 0 50px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover{
+    font-style: italic;
+}
+
+
+/*----CONTEUDO----*/
+
+#conteudo{
+    width: 100%;
+    text-align: center;
+}
+h1{ 
+    background-color: rgb(216, 216, 216);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: blueviolet solid 5px;
+    border-radius: 30px 60px;
+
+    margin-top: 130px;
+    font-size: 70px;
+    font-family:fantasy;
+    
+ 
+}
+h1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: blueviolet solid 5px;
+    border-radius: 30px 60px;
+    margin: 0px 430px ;
+    margin-top: 90px;
+    font-size: 70px;
+    font-family:fantasy;
+}
+div p {
+    padding-top: 50px;
+    font-size: 20px;
+}
+.img{
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+    border: blueviolet solid 4px;
+    border-radius: 500px 300px 500px 200px;
+
+}
+div article p{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+    display: block;
+    width: 50%;
+    float: left;
+
+}
+#img2{
+    margin-top: 60px;
+    width: 30%;
+    background-color: rgb(233, 233, 233);
+    overflow: hidden;
+    border: blueviolet solid 4px;
+    border-radius: 500px 300px 400px;
+    padding: 7px;
+    margin-bottom: 40px;
+}
+
+
+
+#top{
+    text-decoration: none;
+    color: white;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.tabelas{
+    width: 100%;
+}
+
+
+
+@media (max-width: 425px) {
+    nav, article, div, #conteudo, .center, footer, img, h1, p, iframe, header{
+        text-align: center;
+        width: 100%;
+        min-width: 320px;
+    }
+    nav{
+        padding: 0;
+    }
+    
+}

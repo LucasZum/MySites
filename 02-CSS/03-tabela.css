@@ -1,0 +1,135 @@
+
+/*----MENU---*/
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header {
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+nav{
+    display: inline;
+}
+nav li{
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 20px;
+    display: inline;
+    margin: 0 50px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover{
+    font-style: italic;
+}
+/*--------------------------------------------------------------------------*/
+
+
+
+html{
+    background-color: #757575;
+}
+.table-container{
+    padding: 20px 10px;
+}
+.table-container h1{
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+
+table{
+    font-family:sans-serif;
+    border-radius: 20px;
+    background: white;
+    width: 100%;
+}
+table tr{
+    border-collapse: separate;
+    text-align: left;
+    font-size: 20px;
+    border:#757575 1px solid;
+    border-radius: 10px;
+    border-style: solid none;
+}
+table th, table td {
+    text-align: right;
+    padding: 10px;
+}
+table th{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+tfoot{
+    font-weight: bold;
+    background-color: #cccccc;
+}
+table tr td:first-child{
+    font-weight: bold;
+    text-align: left;
+}
+table tbody tr:hover{
+    background-color: rgba(0, 0, 185, .5);
+}
+h1{
+    font-family: cursive;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+}
+#products{
+    font-weight: bold;
+    background-color: #cccccc;
+}
+.total{
+    color: red;
+}
+/*table td:first-child{
+    border-left-style: solid;
+
+    border-bottom-left-radius: 20px;
+
+}
+table td:last-child{
+    border-right-style: solid;
+    border-bottom-right-radius: 20px; 
+}
+.radius{
+    border-right-style: solid;
+    border-bottom-right-radius: 0px; 
+}
+*/
+#total1{
+    border-right-style: solid;
+    border-bottom-left-radius: 20px;
+
+}
+#total2{
+    border-right-style: solid;
+    border-bottom-right-radius: 20px;
+
+
+}
+#ano2021{
+    border-right-style: solid;
+    border-top-left-radius: 20px;
+}
+#t4{
+    border-right-style: solid;
+    border-top-right-radius: 20px;
+}

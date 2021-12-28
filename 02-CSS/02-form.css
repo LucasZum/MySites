@@ -1,0 +1,170 @@
+
+html{
+    background-color:rgb(116, 108, 133);
+}
+body{
+    justify-content: center;
+    font-family:sans-serif;
+ 
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+nav{
+    display: inline;
+}
+nav li{
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 20px;
+    display: inline;
+    margin: 0 50px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover{
+    font-style: italic;
+}
+
+#contato{
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    color:snow;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-bottom: snow solid 5px;
+    text-align: center;
+    width: 600px;
+    background-color: slateblue;
+    padding-top: 120px;
+    padding-left: 10px ;
+    padding-right: 10px;
+}
+footer{
+    font-size: 20px;
+    color: snow;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-bottom:snow solid 10px;
+    text-align: center;
+    width: 600px;
+    background-color: slateblue;
+    padding:10px;
+}
+
+form{
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-bottom: slateblue solid 10px;
+    text-align: center;
+    width: 600px;
+    background-color: gainsboro;
+    padding:10px;  
+}
+label{
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    display: block;  /* para quebra de linha */
+    color:royalblue;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+form div{
+    padding:5px;
+    margin-bottom: 10px;    
+    border-bottom: slateblue solid solid 4px;
+}
+
+input, textarea{
+    border-color: rgba(255, 255, 240, 0);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;   
+}
+
+
+
+#botao{
+    margin-left: auto;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    bottom: 50px;
+    background-color: slateblue;
+    color:snow;
+    border-color:rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+#botao:hover{
+    bottom: 20px;
+    background-color: rgb(240, 240, 240);
+    color: slateblue;
+    border-color:snow;
+    border-radius: 15px;
+
+}
+select{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+     
+}
+#azul{
+    background-color: blue;
+    color: blue;
+}
+#rosa{
+    background-color: pink;
+    color: pink;
+}
+#vermelho{
+    background-color: red;
+    color: red;
+}
+#verde{
+    background-color: green;
+    color: green;
+}
+footer{
+    text-align: center;
+}
+@media (max-width: 425px) {
+    nav, article, div, #conteudo, .center, footer, img, h1, p, iframe, header{
+        text-align: center;
+        width: 100%;
+        min-width: 320px;
+    }
+    nav{
+        padding: 0;
+    }
+    
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Treino Formulairo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1">
+        <link rel="stylesheet" type="text/css" href="../02-CSS/02-form.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="center">
+                <nav>
+                    <ul>
+    
+                        <li><a href="01-home-page.html">HOME</a></li>
+                        <li><a id="tables" href="03-tabelas.htmml">TABLES<i class="fas fa-table"></i></a></li>
+                        <li><a id="login" href="04-login.html">LOGIN<i class="fas fa-sign-in-alt"></i></a></li>
+                    
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+
+            <article>
+
+                <div id="contato">
+                    <h1>Contato</h1>
+                    <p>Preencha os campos abaixo</p> 
+                </div>
+                
+
+                <form method="post">
+                    <p>
+
+
+                        <div class="divs">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                            
+                        </div>
+
+                        <div id="divemail">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+                        </div>
+                    </p>
+
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite uma mensagem aqui..."></textarea>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label>Quais linguagens você prefere ?</label>
+                            <input type="radio" name="linguagem">HTML
+                            <input type="radio" name="linguagem">CSS
+                            <input type="radio" name="linguagem">Python
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label>Quais Linguagens você sabe ?</label>
+                            <input type="checkbox" name="linguagens">HTML 
+                            <input type="checkbox" name="linguagens">CSS
+                            <input type="checkbox" name="linguagens">Python
+                        </p>
+                    </div>
+                    <div>
+                        <label>Qual a sua cor favorita ?</label>
+                        <select>   
+                                <option id="azul" selected>Azul</option>
+                                <option id="vermelho">Vermelho</option>
+                                <option id="rosa">Rosa</option>
+                                <option id="verde">Verde</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" id="botao">
+                    </div>
+
+                </form>
+
+            </article>
+
+        </section>
+
+        <footer>
+            <p>Desenvolvido por Lucas Queiroz</p>
+        </footer>
+
+    </body>
+</html>
